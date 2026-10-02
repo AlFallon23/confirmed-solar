@@ -18,61 +18,91 @@
 </header>
 <main id="main">
 
-<section class="hero">
+<section class="hero2">
   <div class="wrap">
     <p class="eyebrow">Pennsylvania &middot; New Jersey &middot; New territory on request</p>
     <h1>Addresses of homes that already have rooftop solar.</h1>
     <p class="lead">Every address on the list has been confirmed to have panels. I don't sell guesses.</p>
     <div class="cta">
-      <a class="btn" href="mailto:alfall0904@gmail.com?subject=Free%2010-row%20sample&body=Hi%20Alex%2C%0A%0AI%20would%20like%20the%20free%2010-row%20sample.%0A%0ACompany%3A%0ACounties%20I%20serve%3A%0AServices%20I%20offer%3A%0A">Request a free 10-row sample</a>
-      <a class="btn ghost" href="tel:+19082100801">Call (908) 210-0801</a>
+      <a class="btn amber" href="#sample">Get 10 free rows</a>
+      <a class="btn ghost" href="pricing.html">See pricing</a>
     </div>
   </div>
 </section>
 
-<section class="stats" aria-label="Scale">
-  <div class="wrap grid3">
+<section class="pricestrip" aria-label="Pricing">
+  <div class="wrap ps">
+    <div><span class="num">$1</span><span class="cap">per confirmed address</span></div>
+    <div><span class="num">$5</span><span class="cap">per filtered record, every data point included</span></div>
+    <div><span class="num">Free</span><span class="cap">10-row sample, check them yourself</span></div>
+    <a class="btn small amber" href="pricing.html">Price your list</a>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap split">
+    <div class="txt">
+      <p class="eyebrow dk">What it is</p>
+      <h2>There is no public list of which houses have solar. This is one.</h2>
+      <p>It is a prospecting list of homes, not inbound leads. Nobody on it has asked for a quote. You get the address and, for most of them, the exact install date and system size, so you can decide who is worth a call or a visit before you send anyone out.</p>
+      <p><a class="more" href="data.html">See every field</a></p>
+    </div>
+    <div class="pic"><img src="img/suburb.jpg" alt="Suburban rooftops with solar panels under a rainbow" loading="lazy"></div>
+  </div>
+</section>
+
+<section class="band alt">
+  <div class="wrap split flip">
+    <div class="txt">
+      <p class="eyebrow dk">Who buys it</p>
+      <h2>Built for companies that work on solar that is already up.</h2>
+      <ul class="ticks">
+        <li><b>Roofers</b> doing panel removal and reinstall for a reroof</li>
+        <li><b>Repair and maintenance</b> crews looking for service accounts</li>
+        <li><b>Panel cleaning</b> and critter guard installers</li>
+        <li><b>Battery storage</b> retrofits and <b>inverter</b> replacement</li>
+      </ul>
+    </div>
+    <div class="pic tall"><img src="img/rooftops.jpg" alt="Rooftops with a solar array on one house" loading="lazy"></div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap three">
     <div><span class="big">Tens of thousands</span><span class="cap">of confirmed solar addresses</span></div>
     <div><span class="big">Dozens</span><span class="cap">of counties across Pennsylvania and New Jersey</span></div>
     <div><span class="big">Thousands</span><span class="cap">in each of the largest counties</span></div>
   </div>
+  <div class="wrap"><p class="mid"><a class="more" href="coverage.html">See current coverage</a> &middot; New territory is run on request, and I confirm timing when we talk.</p></div>
 </section>
 
-<section class="wrap block">
-  <h2>What this is</h2>
-  <p>There is no public list of which houses have solar. This is one. It is a prospecting list of homes, not inbound leads: nobody on it has asked for a quote. You get the address, and for most of them the exact install date and system size, so you can decide who is worth a call or a visit before you send anyone out.</p>
-</section>
-
-<section class="wrap block">
-  <h2>Who uses it</h2>
-  <ul class="chips">
-    <li>Roofers doing panel removal and reinstall</li>
-    <li>Solar repair and maintenance</li>
-    <li>Panel cleaning</li>
-    <li>Critter guard and bird proofing</li>
-    <li>Battery storage retrofits</li>
-    <li>Inverter replacement</li>
-  </ul>
-</section>
-
-<section class="wrap block two">
-  <div>
-    <h2>What comes with each address</h2>
-    <p>Location, ZIP and county on every record. Exact install month and year and exact system size in kilowatts on most. Array size ranking, roof complexity and panel type where available.</p>
-    <p><a class="more" href="data.html">See every field</a></p>
-  </div>
-  <div>
-    <h2>Any territory</h2>
-    <p>The counties already built are a starting point, not a boundary. Tell me where you work and I will run it. I confirm timing for each new area when we talk.</p>
-    <p><a class="more" href="coverage.html">See current coverage</a></p>
+<section class="sample" id="sample">
+  <div class="wrap split">
+    <div class="txt">
+      <h2>Get 10 rows free.</h2>
+      <p>Tell me what you do and where you work. I'll send ten real rows so you can check the addresses yourself before you decide anything.</p>
+      <p class="fine2">No account, no card. I read every request myself.</p>
+    </div>
+    <form class="form" id="f" action="#" onsubmit="return go(event)">
+      <label>Company<input name="c" required autocomplete="organization"></label>
+      <label>Your email<input name="e" type="email" required autocomplete="email"></label>
+      <label>Counties you serve<input name="k" placeholder="e.g. Bucks, Montgomery, Hunterdon" required></label>
+      <label>What you do
+        <select name="s"><option>Roofing</option><option>Solar repair / maintenance</option><option>Panel cleaning</option><option>Critter guard</option><option>Battery storage</option><option>Inverter / electrical</option><option>Other</option></select>
+      </label>
+      <button class="btn amber" type="submit">Request the sample</button>
+      <p class="fine2">This opens an email to me with your details filled in. Nothing is stored on this site.</p>
+    </form>
   </div>
 </section>
+<script>
+function go(ev){ev.preventDefault();var f=ev.target,v=function(n){return f.elements[n].value};
+var b="Hi Alex,%0A%0AI would like the free 10-row sample.%0A%0ACompany: "+encodeURIComponent(v('c'))+"%0AEmail: "+encodeURIComponent(v('e'))+"%0ACounties: "+encodeURIComponent(v('k'))+"%0AWhat I do: "+encodeURIComponent(v('s'));
+location.href="mailto:alfall0904@gmail.com?subject=Free%2010-row%20sample&body="+b;return false}
+</script>
 
-<section class="wrap block">
-  <h2>Price it yourself</h2>
-  <p>Addresses are $1 each. Filtered records are $5 each. Discounts apply when you buy in bulk. The estimator shows a price for your quantity.</p>
-  <p><a class="btn" href="pricing.html">Open the estimator</a></p>
-</section>
+<a class="stick" id="stick" href="#sample" hidden>Free 10 rows</a>
+<script>(function(){var s=document.getElementById("stick"),m=document.getElementById("sample");function u(){var y=window.scrollY>700,r=m.getBoundingClientRect();s.hidden=!y||(r.top<window.innerHeight*0.8)}addEventListener("scroll",u,{passive:true});u()})()</script>
 
 </main>
 <footer class="site">
