@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pricing | Confirmed Solar</title>
+<meta name="description" content="Price estimator for confirmed solar address lists. Nothing is sold online; quotes by email or phone.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <div class="wrap bar">
+    <a class="brand" href="index.html"><svg width="26" height="26" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#14202b"/><path d="M6 21l10-9 10 9" fill="none" stroke="#f2a93b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="16" cy="9" r="2.4" fill="#f2a93b"/></svg>Confirmed Solar</a>
+    <nav aria-label="Main"><a href="data.html">The data</a><a href="coverage.html">Coverage</a><a href="pricing.html" aria-current="page">Pricing</a><a href="about.html">About</a><a href="contact.html">Contact</a><a class="btn small" href="mailto:alfall0904@gmail.com?subject=Question%20about%20Confirmed%20Solar&body=">Email Alex</a></nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="wrap head"><h1>Pricing</h1>
+<p class="lead">Addresses are $1 each. Filtered records, such as a list cut by system age or size, are $5 each and include every data point I have for the record. Discounts apply when you buy in bulk.</p></section>
+
+<section class="wrap block">
+  <div class="calc" id="calc">
+    <fieldset>
+      <legend>What do you need?</legend>
+      <label class="opt"><input type="radio" name="p" value="1" checked> <span><strong>Addresses</strong> <em>$1 each</em><br><small>Confirmed solar addresses in your counties.</small></span></label>
+      <label class="opt"><input type="radio" name="p" value="5"> <span><strong>Filtered records</strong> <em>$5 each</em><br><small>Cut by system age or size, with every data point I have.</small></span></label>
+    </fieldset>
+    <label class="qty">How many?
+      <input id="qty" type="number" min="1" max="1000000" step="1" value="1000" inputmode="numeric">
+    </label>
+    <input id="rng" type="range" min="100" max="50000" step="100" value="1000" aria-label="Quantity slider">
+    <div class="result" aria-live="polite">
+      <div class="lbl">Estimated list price</div>
+      <div class="amt" id="amt">$1,000</div>
+      <div class="sub" id="sub">1,000 addresses at $1 each, before any bulk discount.</div>
+    </div>
+    <p class="note">This is an estimate only. Nothing is sold or charged on this site. Bulk discounts are confirmed when you get in touch, and I will give you a firm quote for your exact counties and filters.</p>
+    <div class="cta"><a class="btn" id="mail" href="#">Email this estimate to Alex</a> <a class="btn ghost" href="tel:+19082100801">Call (908) 210-0801</a></div>
+  </div>
+</section>
+
+<section class="wrap block">
+  <h2>How ordering works</h2>
+  <ol class="plain">
+    <li>Tell me your counties and what you do.</li>
+    <li>I send a free 10-row sample so you can check the addresses yourself.</li>
+    <li>I quote your exact list. You decide.</li>
+  </ol>
+</section>
+<script src="calc.js"></script>
+
+</main>
+<footer class="site">
+  <div class="wrap foot">
+    <div>
+      <strong>Confirmed Solar</strong><br>
+      Operated by Alex Fallon<br>
+      <a href="tel:+19082100801">(908) 210-0801</a> &middot; <a href="mailto:alfall0904@gmail.com">alfall0904@gmail.com</a>
+    </div>
+    <div>
+      <a href="privacy.html">Privacy Policy</a><br>
+      <a href="terms.html">Terms of Use</a><br>
+      <a href="data-use.html">Data Use and Removal</a>
+    </div>
+    <div class="fine">Nothing on this site is for sale online. Pricing, samples and orders are handled by email or phone.<br>&copy; 2026 Alex Fallon. All rights reserved.</div>
+  </div>
+</footer>
+</body>
+</html>
