@@ -11,7 +11,7 @@
     amt.textContent='$'+fmt(total);
     sub.textContent=fmt(n)+' '+plural+' at $'+r+' each, before any bulk discount.';
     var body='Hi Alex,\n\nI would like a quote for '+fmt(n)+' '+plural+' (list estimate $'+fmt(total)+').\n\nCompany:\nCounties or states:\nFilters (age, size):\n';
-    mail.href='mailto:alfall0904@gmail.com?subject='+encodeURIComponent('Quote request: '+fmt(n)+' '+plural)+'&body='+encodeURIComponent(body);
+    mail.href='mailto:confirmed.solar.company@gmail.com?subject='+encodeURIComponent('Quote request: '+fmt(n)+' '+plural)+'&body='+encodeURIComponent(body);
   }
   qty.addEventListener('input',function(){update('qty')});
   rng.addEventListener('input',function(){update('rng')});
