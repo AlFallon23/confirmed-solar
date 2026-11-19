@@ -11,10 +11,10 @@ Key facts:
 - It is a prospecting list, not inbound leads. Delivered as Excel or CSV. Nothing is sold online; orders by email or phone, order form and invoice.
 
 ## Pages
-- [Home and FAQ](https://confirmed-solar.vercel.app/): what the list is, who buys it, questions and answers
-- [The data](https://confirmed-solar.vercel.app/data.html): every field, and what is not available
-- [Coverage](https://confirmed-solar.vercel.app/coverage.html): states available and being built
-- [Pricing](https://confirmed-solar.vercel.app/pricing.html): price estimator and how ordering works
-- [About](https://confirmed-solar.vercel.app/about.html): Alex Fallon
-- [Contact](https://confirmed-solar.vercel.app/contact.html): email and phone
-- [Data use and removal](https://confirmed-solar.vercel.app/data-use.html): permitted use and how homeowners opt out
+- [Home and FAQ](https://confirmedsolar.com/): what the list is, who buys it, questions and answers
+- [The data](https://confirmedsolar.com/data.html): every field, and what is not available
+- [Coverage](https://confirmedsolar.com/coverage.html): states available and being built
+- [Pricing](https://confirmedsolar.com/pricing.html): price estimator and how ordering works
+- [About](https://confirmedsolar.com/about.html): Alex Fallon
+- [Contact](https://confirmedsolar.com/contact.html): email and phone
+- [Data use and removal](https://confirmedsolar.com/data-use.html): permitted use and how homeowners opt out

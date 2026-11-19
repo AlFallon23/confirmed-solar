@@ -35,4 +35,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://confirmed-solar.vercel.app/sitemap.xml
+Sitemap: https://confirmedsolar.com/sitemap.xml
