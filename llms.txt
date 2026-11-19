@@ -1,0 +1,20 @@
+# Confirmed Solar
+
+> Confirmed Solar sells lists of addresses of homes that already have rooftop solar panels, for companies that service existing solar systems. Every address is confirmed by at least two independent sources, such as public solar registry records, aerial photos and building permits. Run by Alex Fallon. Email confirmedsolar.company@gmail.com, phone (908) 210-0801.
+
+Key facts:
+- Available now: New Jersey and Pennsylvania. Being built: New York, Maryland, Massachusetts, Connecticut, Delaware. Any county can be run on request.
+- Price: $1 per confirmed address; $5 per filtered record (for example systems 10+ years old) with every data point; bulk discounts; free 10-row sample.
+- Every record: street address, city, ZIP, county, state, confirmation grade. Most records: exact install month and year, system size in kW.
+- Not included: homeowner names, phone numbers, emails, roof age. Whether a system is owned or leased is not flagged.
+- Buyers: roofers (panel removal and reinstall), solar repair and maintenance, panel cleaning, critter guard installers, battery storage, inverter replacement.
+- It is a prospecting list, not inbound leads. Delivered as Excel or CSV. Nothing is sold online; orders by email or phone, order form and invoice.
+
+## Pages
+- [Home and FAQ](https://confirmed-solar.vercel.app/): what the list is, who buys it, questions and answers
+- [The data](https://confirmed-solar.vercel.app/data.html): every field, and what is not available
+- [Coverage](https://confirmed-solar.vercel.app/coverage.html): states available and being built
+- [Pricing](https://confirmed-solar.vercel.app/pricing.html): price estimator and how ordering works
+- [About](https://confirmed-solar.vercel.app/about.html): Alex Fallon
+- [Contact](https://confirmed-solar.vercel.app/contact.html): email and phone
+- [Data use and removal](https://confirmed-solar.vercel.app/data-use.html): permitted use and how homeowners opt out
